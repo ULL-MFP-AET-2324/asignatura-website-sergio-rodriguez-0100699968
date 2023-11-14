@@ -5,7 +5,7 @@ light: true
 description: 'Desarrollo Colaborativo de Proyectos de Aprendizaje y Enseñanza de Tecnologías en la Nube'
 acronym: AET
 exclude: [ '_drafts/2021/', '_drafts/2020' ]
-baseurl: '/asignatura-website-template/' # '/introduccion'
+baseurl: '/asignatura-website-sergio-rodriguez-0100699968/' # '/introduccion'
 #url: https://ull-mfp-aet-2223.github.io/ull-mfp-aet-2223.github.io
 guia_docente: https://www.ull.es/apps/guias/guias/view_guide_course/2223/125771143
 show_downloads: false

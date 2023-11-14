@@ -1,0 +1,23 @@
+vendor
+*.DS_Store*
+Arona-winter-course
+_site/
+Gemfile.lock
+apuntes-ull-esit-1617
+ull-esit-1617
+jewels
+*.bak
+node_modules
+
+# repl.it 
+.bundle/
+.upm/
+
+_includes/entrega-download.md
+_includes/tareas-traversing.liquid
+
+tema0-introduccion/practicas-old/
+
+tema0-introduccion-a-pl/practicas/code
+
+

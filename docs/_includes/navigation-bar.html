@@ -1,0 +1,46 @@
+<nav>
+  <ul>
+    {% if page.previous %}  
+    <li><a href="{{page.previous.url}}" title="Previous">&#x2190;</a></li>
+    {% endif %}
+    {% if page.next %}
+    <li><a href="{{page.next.url}}" title="Next">&#x2192;</a></li>
+    {% endif %}
+    <li><a href="{{site.baseurl}}/search" title="search">&#x1F50D;</a></li>
+    <li><a href="{{site.organization.master}}/{{page.path}}" target="_blank" title="Edit this page at GitHub">🐙</a></li>
+    <li><a href="{{site.baseurl}}/index.html" title="Home page">&#x1f3e0</a></li>
+
+    <li><a href="{{site.baseurl}}/resources.html" title="resources">&#x2699</a></li>
+    <li><a href="{{site.baseurl}}/timetables.html" title="horarios">&#x1f5d3</a></li>
+    <li><a href="{{site.baseurl}}/references.html" title="bibliografia">&#x1f4da</a></li>
+    
+
+    <li><a href="{{site.baseurl}}/practicas.html" title="prácticas">&#x270d</a></li>
+
+    <li><a href="{{site.baseurl}}/clases.html" title="clases"> 👨‍🏫</a></li>
+    <!--
+        <img src="{{site.baseurl}}/assets/images/casianogravatar.jpeg" 
+        style="width: 11px; height: 12px;"/>
+    
+    <li><a href="{{site.baseurl}}/temas.html" title="temas">📖</a></li>  
+    -->
+    
+<!--
+    <li><a href="{{site.baseurl}}/tema0-introduccion-a-pl/guia-docente.html" title="Tema 0: Presentación">T 0</a></li>
+    <li><a href="{{site.baseurl}}/tema1-introduccion-a-javascript/index.html">T 1</a></li>
+    <li><a href="{{site.baseurl}}/tema2-expresiones-regulares-y-analisis-lexico/">T 2</a></li>
+    <li><a href="{{site.baseurl}}/tema3-analisis-descendente-predictivo-recursivo">T 3</a></li>
+    <li><a href="{{site.baseurl}}/tema4-parsing-expression-grammars">T 4</a></li>
+    <li><a href="{{site.baseurl}}/tema5-analisis-ascendente">T 5</a></li>
+    <li><a href="{{site.baseurl}}/tema6-analisis-dependiente-del-contexto">T 6</a></li>
+    <li><a href="{{site.baseurl}}/tfa">TFA</a></li>
+-->
+
+    {% if site.show_downloads %}
+    <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
+    <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
+    <li class="title">DOWNLOADS</li>
+    {% endif %}
+  </ul>
+</nav>
+
